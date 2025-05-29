@@ -38,7 +38,7 @@ nav a:hover, nav .active {
 }
 .hero {
   height: 100vh;
-  background: url('assets/background.jpg') no-repeat center/cover;
+  background: url('background.jpg') no-repeat center/cover;
   display: flex;
   align-items: center;
   justify-content: center;
