@@ -1,4 +1,4 @@
-const phrases = ["a Designer", "a Developer", "an Innovator"];
+const phrases = ["a Designer ", "a Developer ", "an Innovator "];
 let current = 0;
 let char = 0;
 let isDeleting = false;
