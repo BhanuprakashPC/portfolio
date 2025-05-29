@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Education</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #0a0a0a;
+    font-family: 'Segoe UI', sans-serif;
+    color: #fff;
+  }
+  h2 {
+    font-size: 36px;
+    color: #1e90ff;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    animation: slideDown 1s ease-in-out;
+  }
+  table {
+    max-width: 800px;
+    margin: 0 auto 80px auto;
+    width: 90%;
+    background-color: #111;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(30, 144, 255, 0.2);
+    border-collapse: separate;
+    border-spacing: 0;
+    overflow: hidden;
+  }
+  th, td {
+    padding: 15px 20px;
+    text-align: center;
+    color: #ccc;
+  }
+  th {
+    background-color: #1e90ff;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+  tr:nth-child(even) {
+    background-color: #222;
+  }
+  tr:hover {
+    background-color: rgba(30, 144, 255, 0.15);
+    color: #fff;
+  }
+  @keyframes slideDown {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+</style>
+</head>
+<body>
+
+<h2>Education</h2>
+<table>
+  <tr><th>Course</th><th>Institute</th><th>University</th><th>Year</th><th>Marks</th></tr>
+  <tr><td>MCA</td><td>DSATM</td><td>VTU</td><td>Pursuing</td><td>8.76 CGPA</td></tr>
+  <tr><td>BCA</td><td>SRNM College</td><td>Kuvempu</td><td>2023</td><td>75.56%</td></tr>
+  <tr><td>PUC</td><td>Morarji Desai PU College</td><td>PUE</td><td>2020</td><td>65.86%</td></tr>
+  <tr><td>SSLC</td><td>Morarji Desai Model Res School</td><td>KSEEB</td><td>2018</td><td>79.36%</td></tr>
+</table>
+
+</body>
+</html>
