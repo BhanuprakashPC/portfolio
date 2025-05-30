@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Projects</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0a0a0a;
+      color: #fff;
+      margin: 0;
+      padding: 40px;
+    }
+
+    h2 {
+      font-size: 32px;
+      color: #1e90ff;
+      border-bottom: 2px solid #1e90ff;
+      padding-bottom: 10px;
+      margin-bottom: 30px;
+      animation: slideIn 1s ease;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      background-color: #111;
+      margin: 15px 0;
+      padding: 20px;
+      border-radius: 10px;
+      border-left: 5px solid #1e90ff;
+      transition: transform 0.3s ease, background-color 0.3s ease;
+      animation: fadeInUp 1s ease both;
+    }
+
+    li:hover {
+      background-color: #1a1a1a;
+      transform: scale(1.03);
+    }
+
+    li strong {
+      color: #1e90ff;
+      font-size: 18px;
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes slideIn {
+      from {
+        opacity: 0;
+        transform: translateX(-50px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <h2>Work</h2>
+  <ul>
+    <li><strong>Data Science Intern :</strong> Vlinkin Professionals LLP | 15th November 2024 – 27th December 2024</li>
+    <pre>Actively contributed to various Data Science projects, including "Human Detection and Alert Generation".
+Demonstrated technical proficiency and problem-solving skills, showcasing a commitment to professional growth.
+</pre>
+
+    <li><strong>Data Science Intern :</strong> Main Flow | 15 November 2024 - 15 January 2025 </li>
+    <pre>Developed a Heart Attack Prediction System using machine learning (Logistic Regression, Random Forest) to assess cardiovascular risk based on clinical parameters.
+Built a House Rent Prediction Model leveraging regression algorithms to estimate rental prices using key features like location, area, and furnishing type.
+Created an Iris Flower Classification Model using Scikit-learn and visualized decision boundaries with Matplotlib and Seaborn for educational clarity.
+</pre>
+  </ul>
+</body>
+</html>
